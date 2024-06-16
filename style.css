@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: #080707;
+}
+.backphoto1{
+    position: relative;
+    width: 100%;
+    height: 40vw;
+}
+.backphoto1 img{
+    width: 100%;
+    height: 100%;
+    background-image: cover;
+    background-position: center;
+}
+.main nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 4vw;
+    position: absolute;
+    top: 0;
+    padding: 0vw 1.5vw;
+    border-bottom: 0.1vw solid rgba(44, 41, 41, 0.822);
+}
+nav .logo i{
+    font-size: 2vw;
+    color: rgba(140, 146, 153, 0.671);
+}
+nav .heading{
+    display: flex;
+    align-items: center;
+    gap: 1.2vw;
+    
+}
+.heading h4{
+    color: rgb(167, 174, 180);
+    font-size: 0.8vw;
+    font-weight: 600;
+}
+h4 span{
+    color: orange;
+}
+h4 i{
+    color: rgb(90, 94, 98);
+}
+nav .icon{
+    display: flex;
+    align-items: center;
+    gap: 1.2vw;
+    color: rgb(132, 137, 142);
+}
+.main .Develop{
+    width: 60vw;
+    height: 35vw;
+    /* background-color: rgb(8, 30, 227); */
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    transform: translate(-50%, -1%);
+    padding: 8vw 1vw;
+    
+}
+.main .bottom{
+    position: absolute;
+    top: 80%;
+    color: rgb(131, 136, 139);
+    margin: 0vw 2vw;
+    font-size: 0.9vw;
+}
+.main .right1{
+    position: absolute;
+    top: 30%;
+    right: 0;
+    color: rgb(179, 186, 190);
+    font-size: 0.9vw;
+    rotate: 90deg;
+}
+.main .right2{
+    position: absolute;
+    top: 55%;
+    right: 0;
+    color: rgb(177, 185, 190);
+    font-size: 0.9vw;
+    rotate: 90deg;
+}
+.backphoto2{
+    position: relative;
+    width: 100%;
+    height: 50vw;
+    margin-top: 0.03vw;
+    background: #000000;
+}
+.backphoto2 .Unlock{
+    position: absolute;
+    width: 60%;
+    height: 6vw;
+    color: white;
+    margin-left: 20%;
+    padding: 5vw 0vw;
+    display: flex;
+    gap: 23vw;
+    align-items: center;
+    justify-content: center;
+}
+.backphoto2 h4{
+    color: rgb(136, 130, 130);
+     font-size: 0.8vw;
+} 
+.backphoto2 h5{
+    color: rgb(136, 130, 130);
+     font-size: 0.8vw;
+} 
+.backphoto2 h2{
+    font-size: 1.5vw;
+    font-weight: 800;
+} 
+.backphoto2 .threeimagecomtainer{
+    position: absolute;
+    top: 15%;
+    width: 70%;
+    height: 40vw;
+    /* background: #bd0b0b; */
+    display: flex;
+    margin: 2vw 20vw;
+}
+.threeimagecomtainer .image1{
+    position: relative;
+    width: 16vw;
+    height: 20vw;
+    margin-left: 5vw;
+}
+.threeimagecomtainer img{
+    width: 100%;
+    height: 100%;
+    background-image: cover;
+    background-position: center;
+}
+.threeimagecomtainer .image11{
+    position: absolute;
+    width: 16vw;
+    height: 20vw;
+    background: #00000032;
+    margin-left: 5vw;
+}
+.image1 h6{
+    position: absolute;
+    color: white;
+    font-size: 1.2vw;
+    font-weight: 900;
+    top: 50%;
+    left: 25%;
+}
+.threeimagecomtainer .image2{
+    position: relative;
+    width: 16vw;
+    height: 20vw;
+    margin-left: 2vw;
+    margin-top: 2.5vw;
+}
+.threeimagecomtainer .image22{
+    position: absolute;
+    width: 16vw;
+    height: 20vw;
+    background: #0000002b;
+    margin-left: 23vw;
+    margin-top: 2.5vw;
+}
+.image2 h6{
+    position: absolute;
+    color: white;
+    font-size: 1.2vw;
+    font-weight: 900;
+    top: 50%;
+    left: 25%;
+}
+.threeimagecomtainer .image3{
+    width: 16vw;
+    height: 20vw;
+    margin-left: 2vw;
+    margin-top: 5.2vw;
+}
+.threeimagecomtainer .image33{
+    position: absolute;
+    width: 16vw;
+    height: 20vw;
+    background: #00000045;
+    margin-left: 41vw;
+    margin-top: 5.2vw;
+}
+.image3 h6{
+    position: absolute;
+    color: rgb(247, 243, 250);
+    font-size: 1.2vw;
+    font-weight: 900;
+    top: 35%;
+    left: 63%;
+}
+.botlogocontainer{
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+    height: 10vw;
+    /* background: #8c0f0f; */
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding-top: 3vw;
+}
+.botlogo{
+    display: flex;
+    color: #8f8484;
+    gap: 4vw;
+    margin-top: 2vw;
+    font-size: 2.5vw;
+}
+.botlogocontainer h6{
+    color: #7f7a7ad5;
+    font-size: 0.9vw;
+}
+.awardcontainer{
+    width: 100%;
+    background: #000;
+}
+.award{
+    padding-top: 10vw;
+    color: #fff;
+}
+.awardcontainer .foto{
+    position: absolute;
+    top: 10%;
+    right: 30vw;
+    rotate: -750deg;
+}
+.awardcontainer .foto img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+}
+.awardcontainer .foto1{
+    width: 18vw;
+   height: 20vw;
+    position: absolute;
+    top: 10%;
+    right: 30vw;
+    rotate: -750deg;
+    background: #00000042;
+}
+.fourfoto img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+}
+.girlimage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+}
+
+.opment{
+    width: 100%;
+    height: 25vw;
+    background: #000000;
+    padding: 3vw 0vw;
+   
+}
+.opment1{
+    padding: 20px 5px;
+    white-space: nowrap;  
+}
+.opment h1{
+    display: inline-block;
+    font-size: 6vw;
+    font-weight: 600;
+    color: #ffffffd8;
+    margin-right: 10px;
+    animation-name: word;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes word {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translatex(calc(-100% - 14px));
+    }
+    
+}
+.opment2{
+    padding: 20px 5px;
+    white-space: nowrap;  
+}
+.opment h2{
+    display: inline-block;
+    color: #ffffff36;
+    font-size: 6vw;
+    font-weight: 600;
+    margin-right: 10px;
+    animation-name: color;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+@keyframes color {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translatex(calc(-100% - 14px));
+    }
+    
+}
+@media (max-width:600px){
+    .backphoto1{
+        width: 100%;
+        height: 50vw;
+        }
+        .backphoto1 img{
+            width: 100%;
+            height: 100%;
+        }
+        .main nav{
+            width: 100%;
+            height: 6vw;
+            padding: 0vw 1.7vw;
+            border-bottom: 0.2vw solid rgba(68, 65, 65, 0.489);
+        }
+        nav .logo i{
+            font-size: 5vw;
+            color: rgba(140, 146, 153, 0.671);
+        }
+        .heading h4{
+            color: rgb(167, 174, 180);
+            font-size: 1.7vw;
+            font-weight: 700;
+        }
+        h4 i{
+            color: rgb(143, 147, 151);
+            font-size: 1.8vw;
+        }
+        .main .Develop{
+            width: 90%;
+            height: 40vw;
+            /* background-color: rgb(3, 20, 171); */
+            position: absolute;
+            top: 8%;
+            left: 45%;
+            transform: translate(-50%, -1%);
+            padding-top: 8vw;
+            padding-left: 30vw;
+        }
+        .Develop h1{
+            font-size: 5vw;
+            line-height: 6vw;
+        }
+        .Develop .para{
+            font-size: 1.4vw;
+            width: 55%;
+            height: 6vw;
+            display: flex;
+            align-items: center;
+            padding-top: 2vw;
+        }
+        .Develop .Digital{
+            display: flex;  
+            align-items: center;
+        }
+        .main .bottom{
+            position: absolute;
+            top: 33%;
+            color: rgb(189, 200, 206);
+            margin: 0vw 3vw;
+            font-size: 1.9vw;
+        }
+        .main .right1{
+            position: absolute;
+            top: 15%;
+            right: 0;
+            color: rgb(202, 212, 218);
+            font-size: 1.5vw;
+            rotate: 90deg;
+        }
+        .main .right2{
+            position: absolute;
+            top: 28%;
+            right: 0;
+            color: rgb(212, 226, 235);
+            font-size: 1.5vw;
+            rotate: 90deg;
+        }
+        
+}
